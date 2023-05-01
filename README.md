@@ -1,2 +1,3 @@
 # JS-practice-assignments
-This repo contains JavaScript practice assignment for a JS course
+
+This repo contains Coding challenges built together with UI's from the Jonas Smedtman JavasScript course
