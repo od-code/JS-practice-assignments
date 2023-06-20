@@ -1,4 +1,4 @@
-"user strict";
+"use strict";
 const resultMessage = function (message) {
   document.querySelector(".display").textContent = message;
 };
