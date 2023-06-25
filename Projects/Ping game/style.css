@@ -19,15 +19,14 @@ body {
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
   display: grid;
   place-content: center;
-  /* align-items: center;
-  justify-content: center; */
 }
 /* HOW TO PLAY PLAY THE GAME BUTTON  */
-.instruction {
-  position: absolute;
+.instruction .btn {
+  /* position: absolute; */
   top: 1rem;
   left: 2rem;
   color: #fff;
+  margin-bottom: 10rem;
   /* width: 3rem; */
 }
 
@@ -199,4 +198,23 @@ main {
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
+}
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+ul li {
+  font-size: 1.8rem;
 }
