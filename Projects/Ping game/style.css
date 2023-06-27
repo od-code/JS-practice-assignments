@@ -19,6 +19,7 @@ body {
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
   display: grid;
   place-content: center;
+  padding: 2rem;
 }
 /* HOW TO PLAY PLAY THE GAME BUTTON  */
 .instruction .btn {
@@ -26,8 +27,6 @@ body {
   top: 1rem;
   left: 2rem;
   color: #fff;
-  margin-bottom: 10rem;
-  /* width: 3rem; */
 }
 
 /* LAYOUT */
@@ -209,10 +208,13 @@ main {
   border: none;
   background: none;
 }
-
-h1 {
+h2 {
   font-size: 2.5rem;
+}
+h1 {
   margin-bottom: 2rem;
+  text-align: center;
+  text-decoration: underline;
 }
 
 ul li {
