@@ -15,14 +15,18 @@ const currentScore0 = document.querySelector('#current--0');
 const currentScore1 = document.querySelector('#current--1');
 
 // Initializing the scores variable
-let score = 0;
+let currentScore = 0;
 //  Implementing the game logic
 diceEl.classList.add('hidden');
 btnRoll.addEventListener('click', function () {
   let randomDiceRoll = Math.trunc(Math.random() * 6) + 1;
   diceEl.src = `dice-${randomDiceRoll}.png`;
   diceEl.classList.remove('hidden');
-  currentScore0.innerHTML = randomDiceRoll;
+  if (randomDiceRoll !== 1) {
+    currentScore += randomDiceRoll;
+    currentScore0.textContent = currentScore;
+  } else {
+  }
 });
 
 // HOW TO PLAY THE GAME MODAL
