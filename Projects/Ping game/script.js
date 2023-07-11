@@ -16,6 +16,7 @@ const currentScore1 = document.querySelector('#current--1');
 
 // Initializing the scores variable
 let currentScore = 0;
+let scores = [0, 0];
 //  Implementing the game logic
 diceEl.classList.add('hidden');
 btnRoll.addEventListener('click', function () {
